@@ -1,7 +1,9 @@
 # HayleyTravel's Frontend App
 View site demo: [correct URL to be posted here.](https://zircdev.netlify.app/)
 
-Github repository: [https://github.com/zirc31/hayleytravel-frontend](https://github.com/zirc31/hayleytravel-frontend)
+Github repository:
+[Frontend](https://github.com/zirc31/hayleytravel-frontend)
+[Backend](https://github.com/zirc31/hayleytravel-backend)
 
 ## Description
 HayleyTravel's Frontend App, A travel website that can book a flights, hotels and tours.
