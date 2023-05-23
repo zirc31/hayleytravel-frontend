@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState, useEffect, useReducer } from 'react';
+import { useState, useReducer } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './SearchForm.css';
 

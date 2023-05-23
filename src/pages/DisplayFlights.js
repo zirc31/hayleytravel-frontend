@@ -26,7 +26,7 @@ const DisplayFlights = () => {
     const queryNonStop = queryParams.get("nonStop");
     const queryCurrencyCode = queryParams.get("currencyCode");
     const queryMax = parseInt(queryParams.get("max"));
-    const queryDev = queryParams.get("dev"); // for dev purpose
+    // const queryDev = queryParams.get("dev"); // for dev purpose
 
     const numberOfPax = queryAdults + queryChildren + queryInfants;
     context.setNumberOfPax(numberOfPax);
@@ -36,7 +36,7 @@ const DisplayFlights = () => {
     // const flightApiUrlProd = `http://localhost:8000/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=${queryNonStop}&currencyCode=${queryCurrencyCode}&max=${queryMax}`;
     // Flights with more than one stop.
     const flightApiUrlProd = `http://localhost:8000/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=false&currencyCode=${queryCurrencyCode}&max=${queryMax}`;
-    const flightApiUrlDev = `http://localhost:8000/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=${queryNonStop}&currencyCode=${queryCurrencyCode}&max=${queryMax}&dev=demo`;
+    // const flightApiUrlDev = `http://localhost:8000/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=${queryNonStop}&currencyCode=${queryCurrencyCode}&max=${queryMax}&dev=demo`;
 
     // API to fetch from Back-end
     // `http://localhost:8000/api/v1/search/flight?originLocationCode=MNL&destinationLocationCode=BKK&departureDate=2023-07-15&returnDate=2023-07-18&adults=1&children=0&infants=0&travelClass=ECONOMY&nonStop=true&currencyCode=PHP&max=100&dev=demo`;

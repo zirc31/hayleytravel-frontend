@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect, useReducer } from 'react';
+import { useEffect, useReducer } from 'react';
 import apiData from '../data/fetchedApiAmadeus.json';
 
 const reducer = ( state, action) => {

@@ -71,7 +71,7 @@ const AddPassengerModal = ( props ) => {
 
     const [ formState, dispatch ] = useReducer( reducer, initialFormState);
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
     const context = useContext( AppContext );
 
