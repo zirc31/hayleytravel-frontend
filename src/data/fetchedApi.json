@@ -1,0 +1,6092 @@
+{
+  "airSearchRsp": {
+    "airline": [
+      {
+        "airlinePhoneNumbers": [],
+        "baggageContentAvailable": false,
+        "code": "@8",
+        "name": "SkyWest as Alaska Airlines"
+      },
+      {
+        "acceptedCreditCards": [
+          "VI",
+          "MC",
+          "AX",
+          "DS"
+        ],
+        "airlinePhoneNumbers": [],
+        "baggageContentAvailable": true,
+        "baggageFeeUrl": "www.alaskaair.com/content/travel-info/baggage/overview",
+        "checkInUrl": "www.alaskaair.com/",
+        "code": "AS",
+        "frequentFlyerProgram": "Alaska Mileage Plan",
+        "internationalPhoneNumber": "001-206-244-0751",
+        "largeImage": "airLogo_ASlg.gif",
+        "name": "Alaska Airlines",
+        "phoneNumber": "1-800-252-7522",
+        "seatsUrl": "www.alaskaair.com/content/travel-info/baggage/overview",
+        "smallImage": "airLogo_AS.png",
+        "websiteUrl": "www.alaskaair.com/"
+      },
+      {
+        "airlinePhoneNumbers": [],
+        "baggageContentAvailable": false,
+        "code": "W(",
+        "name": "SkyWest Airlines as American Eagle"
+      },
+      {
+        "acceptedCreditCards": [
+          "VI",
+          "MC",
+          "AX",
+          "DS"
+        ],
+        "airlinePhoneNumbers": [],
+        "allianceCode": "OW",
+        "baggageContentAvailable": true,
+        "baggageFeeUrl": "www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp",
+        "checkInUrl": "www.aa.com/homePage.do",
+        "code": "AA",
+        "frequentFlyerProgram": "American AAdvantage",
+        "largeImage": "airLogo_AAlg.gif",
+        "name": "American Airlines",
+        "phoneNumber": "1-800-433-7300",
+        "seatsUrl": "www.aa.com/i18n/travelInformation/baggage/baggageAllowance.jsp",
+        "smallImage": "airLogo_AA.png",
+        "websiteUrl": "www.aa.com"
+      },
+      {
+        "acceptedCreditCards": [
+          "VI",
+          "MC",
+          "AX",
+          "DS"
+        ],
+        "airlinePhoneNumbers": [],
+        "allianceCode": "ST",
+        "baggageContentAvailable": true,
+        "baggageFeeUrl": "www.delta.com/en_US/traveling-with-us/baggage/before-your-trip/checked",
+        "checkInUrl": "www.delta.com/",
+        "code": "DL",
+        "frequentFlyerProgram": "Delta SkyMiles",
+        "internationalPhoneNumber": "1-800-241-4141",
+        "largeImage": "airLogo_DLlg.gif",
+        "name": "Delta Air Lines",
+        "phoneNumber": "1-800-221-1212",
+        "seatsUrl": "www.delta.com/en_US/traveling-with-us/baggage/before-your-trip/checked",
+        "smallImage": "airLogo_DL.png",
+        "websiteUrl": "www.delta.com/"
+      },
+      {
+        "acceptedCreditCards": [
+          "VI",
+          "MC",
+          "AX",
+          "DS"
+        ],
+        "airlinePhoneNumbers": [],
+        "baggageContentAvailable": true,
+        "baggageFeeUrl": "www.jetblue.com/travel/baggage/",
+        "checkInUrl": "https://book.jetblue.com/B6.myb/#/landing",
+        "code": "B6",
+        "frequentFlyerProgram": "Jet Blue TrueBlue",
+        "internationalPhoneNumber": "1-801-499-2525",
+        "largeImage": "airLogo_B6lg.gif",
+        "name": "JetBlue Airways",
+        "phoneNumber": "1-800-538-2583",
+        "seatsUrl": "www.jetblue.com/travel/baggage/",
+        "smallImage": "airLogo_B6.png",
+        "websiteUrl": "www.jetblue.com/"
+      },
+      {
+        "acceptedCreditCards": [
+          "VI",
+          "MC",
+          "AX",
+          "DS"
+        ],
+        "airlinePhoneNumbers": [],
+        "allianceCode": "SA",
+        "baggageContentAvailable": true,
+        "baggageFeeUrl": "www.united.com/ual/en/us/fly/travel/baggage.html",
+        "checkInUrl": "www.united.com/en/us/",
+        "code": "UA",
+        "frequentFlyerProgram": "United Mileage Plus",
+        "internationalPhoneNumber": "1-800-538-2929",
+        "largeImage": "airLogo_UAlg.gif",
+        "name": "United Airlines",
+        "phoneNumber": "1-800-864-8331",
+        "seatsUrl": "www.united.com/ual/en/us/fly/travel/baggage.html",
+        "smallImage": "airLogo_UA.png",
+        "websiteUrl": "www.united.com/en/us/"
+      }
+    ],
+    "airport": [
+      {
+        "city": "San Francisco",
+        "cityGisId": "3000002244",
+        "cityId": "1066700020",
+        "code": "SFO",
+        "country": "United States",
+        "gmtTimeZoneOffset": "-08:00",
+        "isoCountryCode": "US",
+        "latitude": 37.617544039,
+        "longitude": -122.381264025,
+        "name": "San Francisco Intl Airport",
+        "state": "CA"
+      },
+      {
+        "city": "Los Angeles",
+        "cityGisId": "3000001947",
+        "cityId": "1064400022",
+        "code": "LAX",
+        "country": "United States",
+        "gmtTimeZoneOffset": "-08:00",
+        "isoCountryCode": "US",
+        "latitude": 33.943108403,
+        "longitude": -118.410609209,
+        "name": "Los Angeles Intl Airport",
+        "state": "CA"
+      },
+      {
+        "city": "Phoenix",
+        "cityGisId": "3000001349",
+        "cityId": "1045500020",
+        "code": "PHX",
+        "country": "United States",
+        "gmtTimeZoneOffset": "-07:00",
+        "isoCountryCode": "US",
+        "latitude": 33.435467797,
+        "longitude": -112.003795144,
+        "name": "Phoenix Sky Harbor Intl Airport",
+        "state": "AZ"
+      }
+    ],
+    "alliance": [
+      {
+        "code": "OW",
+        "memberCodes": [
+          "JJ",
+          "AA",
+          "QR",
+          "AB",
+          "JL",
+          "S7",
+          "LP",
+          "XL",
+          "CX",
+          "QF",
+          "LA",
+          "UL",
+          "AY",
+          "RJ",
+          "IB",
+          "4M",
+          "MH",
+          "BA"
+        ],
+        "name": "oneworld"
+      },
+      {
+        "code": "ST",
+        "memberCodes": [
+          "KL",
+          "SU",
+          "SV",
+          "UX",
+          "AF",
+          "KQ",
+          "CI",
+          "DL",
+          "MU",
+          "AM",
+          "AR",
+          "CZ",
+          "VN",
+          "ME",
+          "AZ",
+          "MF",
+          "KE",
+          "GA",
+          "OK",
+          "RO",
+          "VS"
+        ],
+        "name": "SkyTeam"
+      },
+      {
+        "code": "SA",
+        "memberCodes": [
+          "LO",
+          "JP",
+          "NZ",
+          "UA",
+          "LX",
+          "SA",
+          "BR",
+          "A3",
+          "SK",
+          "SN",
+          "SQ",
+          "CA",
+          "AC",
+          "OS",
+          "OU",
+          "MS",
+          "AI",
+          "CM",
+          "OZ",
+          "ZH",
+          "ET",
+          "TG",
+          "AV",
+          "TK",
+          "NH",
+          "TP",
+          "LH"
+        ],
+        "name": "Star Alliance"
+      }
+    ],
+    "baggage": [
+      {
+        "airline": "DL",
+        "destAirport": "LAX",
+        "origAirport": "SFO",
+        "uniqueBaggageId": 3
+      },
+      {
+        "airline": "B6",
+        "destAirport": "LAX",
+        "origAirport": "SFO",
+        "uniqueBaggageId": 5
+      },
+      {
+        "airline": "AS",
+        "destAirport": "LAX",
+        "origAirport": "SFO",
+        "uniqueBaggageId": 4
+      },
+      {
+        "airline": "AA",
+        "destAirport": "LAX",
+        "origAirport": "SFO",
+        "uniqueBaggageId": 2
+      },
+      {
+        "airline": "UA",
+        "destAirport": "LAX",
+        "origAirport": "SFO",
+        "uniqueBaggageId": 1
+      }
+    ],
+    "brandReference": [
+      {
+        "brandAttributes": [
+          {
+            "description": "Checked bags",
+            "inclusion": "CHARGEABLE",
+            "type": "CHECKED_BAG"
+          },
+          {
+            "description": "Meal",
+            "inclusion": "NOT_INCLUDED",
+            "type": "MEALS"
+          },
+          {
+            "description": "Changeable Ticket",
+            "inclusion": "INCLUDED",
+            "type": "REBOOKING"
+          },
+          {
+            "description": "WiFi",
+            "inclusion": "NOT_INCLUDED",
+            "type": "WIFI"
+          },
+          {
+            "description": "Carry-on",
+            "inclusion": "INCLUDED",
+            "type": "CARRY_ON"
+          },
+          {
+            "description": "Seat Choice",
+            "inclusion": "INCLUDED",
+            "type": "SEATS"
+          },
+          {
+            "description": "Cancellation",
+            "inclusion": "NOT_INCLUDED",
+            "type": "REFUND"
+          }
+        ],
+        "brandId": "591504b2",
+        "name": "Economy",
+        "tier": 2
+      },
+      {
+        "brandAttributes": [
+          {
+            "description": "Checked bags",
+            "inclusion": "CHARGEABLE",
+            "type": "CHECKED_BAG"
+          },
+          {
+            "description": "Meal",
+            "inclusion": "CHARGEABLE",
+            "type": "MEALS"
+          },
+          {
+            "description": "Changeable Ticket",
+            "inclusion": "INCLUDED",
+            "type": "REBOOKING"
+          },
+          {
+            "description": "Carry-on",
+            "inclusion": "INCLUDED",
+            "type": "CARRY_ON"
+          },
+          {
+            "description": "WiFi",
+            "inclusion": "INCLUDED",
+            "type": "WIFI"
+          },
+          {
+            "description": "Seat Choice",
+            "inclusion": "INCLUDED",
+            "type": "SEATS"
+          },
+          {
+            "description": "Cancellation",
+            "inclusion": "NOT_INCLUDED",
+            "type": "REFUND"
+          }
+        ],
+        "brandId": "645313b1",
+        "name": "Main Cabin",
+        "tier": 4
+      },
+      {
+        "brandAttributes": [
+          {
+            "description": "Checked bags",
+            "inclusion": "CHARGEABLE",
+            "type": "CHECKED_BAG"
+          },
+          {
+            "description": "Meal",
+            "inclusion": "INCLUDED",
+            "type": "MEALS"
+          },
+          {
+            "description": "Changeable Ticket",
+            "inclusion": "INCLUDED",
+            "type": "REBOOKING"
+          },
+          {
+            "description": "Seat Choice",
+            "inclusion": "NOT_INCLUDED",
+            "type": "SEATS"
+          },
+          {
+            "description": "Carry-on",
+            "inclusion": "INCLUDED",
+            "type": "CARRY_ON"
+          },
+          {
+            "description": "WiFi",
+            "inclusion": "CHARGEABLE",
+            "type": "WIFI"
+          },
+          {
+            "description": "Cancellation",
+            "inclusion": "NOT_INCLUDED",
+            "type": "REFUND"
+          }
+        ],
+        "brandId": "620960b3",
+        "name": "Basic Economy",
+        "tier": 1
+      },
+      {
+        "brandAttributes": [
+          {
+            "description": "Checked bags",
+            "inclusion": "CHARGEABLE",
+            "type": "CHECKED_BAG"
+          },
+          {
+            "description": "Meal",
+            "inclusion": "INCLUDED",
+            "type": "MEALS"
+          },
+          {
+            "description": "Changeable Ticket",
+            "inclusion": "INCLUDED",
+            "type": "REBOOKING"
+          },
+          {
+            "description": "Carry-on",
+            "inclusion": "INCLUDED",
+            "type": "CARRY_ON"
+          },
+          {
+            "description": "WiFi",
+            "inclusion": "INCLUDED",
+            "type": "WIFI"
+          },
+          {
+            "description": "Seat Choice",
+            "inclusion": "CHARGEABLE",
+            "type": "SEATS"
+          },
+          {
+            "description": "Cancellation",
+            "inclusion": "NOT_INCLUDED",
+            "type": "REFUND"
+          }
+        ],
+        "brandId": "664318b5",
+        "name": "Blue Basic",
+        "tier": 1
+      },
+      {
+        "brandAttributes": [
+          {
+            "description": "Checked bags",
+            "inclusion": "CHARGEABLE",
+            "type": "CHECKED_BAG"
+          },
+          {
+            "description": "Meal",
+            "inclusion": "CHARGEABLE",
+            "type": "MEALS"
+          },
+          {
+            "description": "Changeable Ticket",
+            "inclusion": "INCLUDED",
+            "type": "REBOOKING"
+          },
+          {
+            "description": "Carry-on",
+            "inclusion": "INCLUDED",
+            "type": "CARRY_ON"
+          },
+          {
+            "description": "WiFi",
+            "inclusion": "CHARGEABLE",
+            "type": "WIFI"
+          },
+          {
+            "description": "Seat Choice",
+            "inclusion": "INCLUDED",
+            "type": "SEATS"
+          },
+          {
+            "description": "Cancellation",
+            "inclusion": "NOT_INCLUDED",
+            "type": "REFUND"
+          }
+        ],
+        "brandId": "645142b4",
+        "name": "Saver",
+        "tier": 1
+      },
+      {
+        "brandAttributes": [
+          {
+            "description": "Checked bags",
+            "inclusion": "CHARGEABLE",
+            "type": "CHECKED_BAG"
+          },
+          {
+            "description": "Meal",
+            "inclusion": "CHARGEABLE",
+            "type": "MEALS"
+          },
+          {
+            "description": "Changeable Ticket",
+            "inclusion": "INCLUDED",
+            "type": "REBOOKING"
+          },
+          {
+            "description": "Carry-on",
+            "inclusion": "INCLUDED",
+            "type": "CARRY_ON"
+          },
+          {
+            "description": "WiFi",
+            "inclusion": "CHARGEABLE",
+            "type": "WIFI"
+          },
+          {
+            "description": "Seat Choice",
+            "inclusion": "INCLUDED",
+            "type": "SEATS"
+          },
+          {
+            "description": "Cancellation",
+            "inclusion": "NOT_INCLUDED",
+            "type": "REFUND"
+          }
+        ],
+        "brandId": "645141b6",
+        "name": "Main",
+        "tier": 2
+      }
+    ],
+    "cabinRestrictions": {
+      "AS": {
+        "BEC": {
+          "altUpsellNotice": "Basic Economy. Carryon Bag Included. No advance seat assignments",
+          "bookingClass": "X",
+          "cabinClass": "BEC",
+          "marketingAirline": "AS",
+          "upsellAvailabilityNotice": "Basic Economy. Carryon Bag Included. No advance seat assignments"
+        }
+      },
+      "B6": {
+        "BEC": {
+          "altUpsellNotice": "Basic Economy. Carryon Bag Included. Seat selection available for a fee after ticket purchase",
+          "bookingClass": "L",
+          "cabinClass": "BEC",
+          "marketingAirline": "B6",
+          "upsellAvailabilityNotice": "Basic Economy. Carryon Bag Included. Seat selection available for a fee after ticket purchase"
+        }
+      },
+      "DL": {
+        "BEC": {
+          "altUpsellNotice": "Basic Economy. Carry-on Bag Included. This fare does not allow advance seat selection.",
+          "bookingClass": "E",
+          "cabinClass": "BEC",
+          "detailsText": [
+            "You have selected a Delta Air Lines Basic Economy Fare\r",
+            "No seat assignment until after check-in\r",
+            "No guarantee of seats together for families or groups\r",
+            "No refunds or ticket changes, including same day changes\r",
+            "No paid or complimentary upgrades"
+          ],
+          "marketingAirline": "DL",
+          "upsellAvailabilityNotice": "Basic Economy. Carryon Bag Included. No advance seat assignments"
+        }
+      }
+    },
+    "cheapestFlightNonStop": false,
+    "clientSessionId": "",
+    "elapsedTime": "6231ms",
+    "equipment": [
+      {
+        "code": "320",
+        "name": "Airbus A320",
+        "type": "J"
+      },
+      {
+        "code": "E75",
+        "name": "Embraer 175",
+        "type": "J"
+      },
+      {
+        "code": "73H",
+        "name": "Boeing 737",
+        "type": "J"
+      },
+      {
+        "code": "738",
+        "name": "Boeing 737-800",
+        "type": "J"
+      },
+      {
+        "code": "319",
+        "name": "Airbus A319",
+        "type": "J"
+      },
+      {
+        "code": "CR7",
+        "name": "Canadair Regional Jet 700",
+        "type": "J"
+      },
+      {
+        "code": "321",
+        "name": "Airbus A321",
+        "type": "J"
+      },
+      {
+        "code": "739",
+        "name": "Boeing 737-900",
+        "type": "J"
+      }
+    ],
+    "expressDeal": {
+      "candidates": []
+    },
+    "filteredTripSummary": {
+      "airline": [
+        {
+          "code": "AA",
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numItineraries": 13,
+          "sponsored": false
+        },
+        {
+          "code": "DL",
+          "lowestTotalFare": {
+            "amount": 106.2,
+            "currency": "USD"
+          },
+          "numItineraries": 8,
+          "sponsored": false
+        },
+        {
+          "code": "UA",
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numItineraries": 23,
+          "sponsored": false
+        },
+        {
+          "code": "AS",
+          "lowestTotalFare": {
+            "amount": 150.2,
+            "currency": "USD"
+          },
+          "numItineraries": 17,
+          "sponsored": false
+        },
+        {
+          "code": "B6",
+          "lowestTotalFare": {
+            "amount": 164.2,
+            "currency": "USD"
+          },
+          "numItineraries": 2,
+          "sponsored": false
+        }
+      ],
+      "airport": [
+        {
+          "destination": "LAX",
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numItineraries": 63,
+          "origin": "SFO"
+        }
+      ],
+      "carrier": [
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 96.2,
+                  "numberOfItineraries": 8,
+                  "stop": 0
+                },
+                {
+                  "lowestTotalFare": 185.7,
+                  "numberOfItineraries": 3,
+                  "stop": 1
+                },
+                {
+                  "lowestTotalFare": 247.2,
+                  "numberOfItineraries": 2,
+                  "stop": 2
+                }
+              ]
+            }
+          ],
+          "code": "AA"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 150.2,
+                  "numberOfItineraries": 13,
+                  "stop": 0
+                },
+                {
+                  "lowestTotalFare": 256.7,
+                  "numberOfItineraries": 4,
+                  "stop": 1
+                }
+              ]
+            }
+          ],
+          "code": "AS"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 164.2,
+                  "numberOfItineraries": 2,
+                  "stop": 0
+                }
+              ]
+            }
+          ],
+          "code": "B6"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 106.2,
+                  "numberOfItineraries": 8,
+                  "stop": 0
+                }
+              ]
+            }
+          ],
+          "code": "DL"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 96.2,
+                  "numberOfItineraries": 12,
+                  "stop": 0
+                },
+                {
+                  "lowestTotalFare": 223.2,
+                  "numberOfItineraries": 11,
+                  "stop": 1
+                }
+              ]
+            }
+          ],
+          "code": "UA"
+        }
+      ],
+      "exactDateMinTotalFareWithTaxesAndFees": 96.2,
+      "itineraries": 63,
+      "layoverAirport": [
+        {
+          "code": "LAS",
+          "lowestTotalFare": {
+            "amount": 256.7,
+            "currency": "USD"
+          },
+          "name": "McCarran Intl Airport"
+        },
+        {
+          "code": "PHX",
+          "lowestTotalFare": {
+            "amount": 185.7,
+            "currency": "USD"
+          },
+          "name": "Phoenix Sky Harbor Intl Airport"
+        },
+        {
+          "code": "RNO",
+          "lowestTotalFare": {
+            "amount": 398.7,
+            "currency": "USD"
+          },
+          "name": "Reno Tahoe Intl Airport"
+        },
+        {
+          "code": "SAN",
+          "lowestTotalFare": {
+            "amount": 223.2,
+            "currency": "USD"
+          },
+          "name": "San Diego Intl Airport (Lindbergh Field)"
+        },
+        {
+          "code": "SEA",
+          "lowestTotalFare": {
+            "amount": 298.7,
+            "currency": "USD"
+          },
+          "name": "Seattle-Tacoma Intl Airport"
+        }
+      ],
+      "maxDuration": 838,
+      "maxLayover": 383,
+      "maxTotalFare": 374,
+      "maxTotalFareWithTaxesAndFees": 402.2,
+      "minDuration": 147,
+      "minDurationFareWithTaxesAndFees": 96.2,
+      "minLayover": 29,
+      "minTotalFare": 76,
+      "minTotalFareWithTaxesAndFees": 96.2,
+      "minTotalFareWithTaxesAndFeesNonSplit": 96.2,
+      "stop": [
+        {
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numberOfItineraries": 43,
+          "numberOfStops": 0
+        },
+        {
+          "lowestTotalFare": {
+            "amount": 185.7,
+            "currency": "USD"
+          },
+          "numberOfItineraries": 18,
+          "numberOfStops": 1
+        },
+        {
+          "lowestTotalFare": {
+            "amount": 247.2,
+            "currency": "USD"
+          },
+          "numberOfItineraries": 2,
+          "numberOfStops": 2
+        }
+      ]
+    },
+    "hasClosedUserGroupDeals": true,
+    "imagePath": "https://www.priceline.com/sam/air/carrier_logos/",
+    "insuranceCost": 18,
+    "itineraryType": "ROUND_TRIP",
+    "merchandisingLabels": [
+      {
+        "label": "CHEAPEST",
+        "value": 1
+      },
+      {
+        "label": "CHEAPEST_NONSTOP",
+        "value": 2
+      },
+      {
+        "label": "QUICKEST",
+        "value": 3
+      },
+      {
+        "label": "EARLY_BIRD",
+        "value": 6
+      }
+    ],
+    "pointOfSale": {
+      "country": "US",
+      "currency": "USD",
+      "requestSourceCountry": "US"
+    },
+    "pricedItinerary": [
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 1,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2,
+          6
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012854",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLIwBUklF4NlDJVqAf/mD0A=",
+            "token": "R_SFO202102150630LAX202102150821GUA504-LAX202102250930SFO202102251115GUA521_1_USD96.28_4612385947009204-4612385947012854-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1480758708
+          }
+        ],
+        "totalTripDurationInHours": 244,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 2,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013144",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDY0AUklF4NlDJVqAf94Dzk=",
+            "token": "R_SFO202102150800LAX202102150952GUA1069-LAX202102251400SFO202102251531GUA667_1_USD96.28_4612385947009204-4612385947013144-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 778663297
+          }
+        ],
+        "totalTripDurationInHours": 247,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 3,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012794",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDK3BEklF4NlDJVqAQAhD0M=",
+            "token": "R_SFO202102150930LAX202102151113GUA1698-LAX202102251945SFO202102252115GUA1666_1_USD96.28_4612385947009204-4612385947012794-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 903540259
+          }
+        ],
+        "totalTripDurationInHours": 251,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 4,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2,
+          3
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013384",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDa2AEklF4NlDJVqAf/UDz8=",
+            "token": "R_SFO202102151000LAX202102151118OAA2912-LAX202102251830SFO202102251939OAA1888_1_USD96.28_4612385947009204-4612385947013384-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1912053598
+          }
+        ],
+        "totalTripDurationInHours": 249,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 5,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013664",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDYzA0klF4NlDJVqAf/mD0A=",
+            "token": "R_SFO202102151100LAX202102151243GUA256-LAX202102251400SFO202102251531GUA667_1_USD96.28_4612385947009204-4612385947013664-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1639111218
+          }
+        ],
+        "totalTripDurationInHours": 244,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 6,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947014474",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDExB0klF4NlDJVqAf/mD0A=",
+            "token": "R_SFO202102151245LAX202102151428GUA2166-LAX202102252245SFO202102260011GUA2381_1_USD96.28_4612385947009204-4612385947014474-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 353443070
+          }
+        ],
+        "totalTripDurationInHours": 251,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 7,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013024",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDYwAkklF4NlDJVqAf9KDzY=",
+            "token": "R_SFO202102151400LAX202102151538GUA2114-LAX202102252245SFO202102260011GUA2381_1_USD96.28_4612385947009204-4612385947013024-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 434406143
+          }
+        ],
+        "totalTripDurationInHours": 250,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 8,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012764",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDI3A0klF4NlDJVqAf/lD0A=",
+            "token": "R_SFO202102151530LAX202102151714GUA215-LAX202102250630SFO202102250800GUA471_1_USD96.28_4612385947009204-4612385947012764-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 433495567
+          }
+        ],
+        "totalTripDurationInHours": 232,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 9,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013364",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDY2A0klF4NlDJVqAf+2Dz0=",
+            "token": "R_SFO202102151700LAX202102151844GUA638-LAX202102251945SFO202102252115GUA1666_1_USD96.28_4612385947009204-4612385947013364-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1061350506
+          }
+        ],
+        "totalTripDurationInHours": 244,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 10,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947015624",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDUzAkklF4NlDJVqAf/MDz4=",
+            "token": "R_SFO202102151830LAX202102152014GUA2264-LAX202102250930SFO202102251115GUA521_1_USD96.28_4612385947009204-4612385947015624-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 168666659
+          }
+        ],
+        "totalTripDurationInHours": 232,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 11,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012984",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLK0AEklF4NlDJVqAQAyD0Q=",
+            "token": "R_SFO202102152000LAX202102152152GUA1200-LAX202102251400SFO202102251531GUA667_1_USD96.28_4612385947009204-4612385947012984-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 855070048
+          }
+        ],
+        "totalTripDurationInHours": 235,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 12,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2,
+          3
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012904",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLIESyUXg2UMlWoB/6sPPA==",
+            "token": "R_SFO202102152030LAX202102152148OAA1888-LAX202102250630SFO202102250739OAA1908_1_USD96.28_4612385947009204-4612385947012904-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1203535231
+          }
+        ],
+        "totalTripDurationInHours": 227,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 13,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947014304",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDEGSyUXg2UMlWoB/20POA==",
+            "token": "R_SFO202102152130LAX202102152322GUA1294-LAX202102251945SFO202102252115GUA1666_1_USD96.28_4612385947009204-4612385947014304-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 633817115
+          }
+        ],
+        "totalTripDurationInHours": 239,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_UA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 14,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          1,
+          2
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 76.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013944",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLY0AUklF4NlDJVqAQAHD0E=",
+            "token": "R_SFO202102152245LAX202102160024GUA257-LAX202102252100SFO202102252239GUA2201_1_USD96.28_4612385947009204-4612385947013944-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 76.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 96.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "UA",
+          "totalFare": 96.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            1
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1442597713
+          }
+        ],
+        "totalTripDurationInHours": 239,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 15,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          6
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 86.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013354",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDY2BUklF4NlDJVqAf+nDzw=",
+            "token": "R_SFO202102150600LAX202102150725EDL2648-LAX202102250824SFO202102251003EDL2564_1_USD106.28_4612385947009204-4612385947013354-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 86.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 106.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 106.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1488525007
+          }
+        ],
+        "totalTripDurationInHours": 244,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 16,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 86.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013154",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDY0BUklF4NlDJVqAf+HDzo=",
+            "token": "R_SFO202102150745LAX202102150914EDL2887-LAX202102250735SFO202102250911EDL2276_1_USD106.28_4612385947009204-4612385947013154-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 86.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 106.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 106.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 949634190
+          }
+        ],
+        "totalTripDurationInHours": 241,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 17,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 86.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947014384",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDG2AEklF4NlDJVqAf/lD0A=",
+            "token": "R_SFO202102150910LAX202102151042EDL2992-LAX202102251700SFO202102251830EDL2955_1_USD106.28_4612385947009204-4612385947014384-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 86.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 106.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 106.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1634935305
+          }
+        ],
+        "totalTripDurationInHours": 249,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 18,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          3
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 3,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 86.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013554",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDY1BUklF4NlDJVqAf/HDz4=",
+            "token": "R_SFO202102151430LAX202102151548QAA2908-LAX202102250630SFO202102250739OAA1908_1_USD106.28_4612385947009204-4612385947013554-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 86.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 106.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 106.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1084984999
+          }
+        ],
+        "totalTripDurationInHours": 233,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 19,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 86.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947015364",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDU2A0klF4NlDJVqAf/YDz8=",
+            "token": "R_SFO202102151507LAX202102151634EDL2501-LAX202102250824SFO202102251003EDL2564_1_USD106.28_4612385947009204-4612385947015364-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 86.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 106.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 106.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1332907667
+          }
+        ],
+        "totalTripDurationInHours": 234,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 20,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 86.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013584",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDa1AEklF4NlDJVqAQADD0E=",
+            "token": "R_SFO202102151715LAX202102151842EDL2457-LAX202102250824SFO202102251003EDL2564_1_USD106.28_4612385947009204-4612385947013584-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 86.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 106.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 106.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 370078285
+          }
+        ],
+        "totalTripDurationInHours": 232,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 21,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 86.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013934",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLY0BkklF4NlDJVqAf/pD0A=",
+            "token": "R_SFO202102151919LAX202102152043EDL402-LAX202102250735SFO202102250911EDL2276_1_USD106.28_4612385947009204-4612385947013934-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 86.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 106.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 106.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1024284835
+          }
+        ],
+        "totalTripDurationInHours": 229,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 22,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 101.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012804",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLIASyUXg2UMlWoB/5sPOw==",
+            "token": "R_SFO202102151045LAX202102151218EDL2564-LAX202102251700SFO202102251830EDL2955_1_USD121.28_4612385947009204-4612385947012804-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 101.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 121.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 121.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1448406410
+          }
+        ],
+        "totalTripDurationInHours": 247,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 23,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          3
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 101.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012784",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDK3AEklF4NlDJVqAQASD0I=",
+            "token": "R_SFO202102151135LAX202102151253NAA1908-LAX202102251830SFO202102251939OAA1888_1_USD121.28_4612385947009204-4612385947012784-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 101.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 121.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 121.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 335814101
+          }
+        ],
+        "totalTripDurationInHours": 248,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_DL)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 24,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 9,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 101.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947015494",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDWxBEklF4NlDJVqAQAkD0M=",
+            "token": "R_SFO202102151246LAX202102151411EDL2664-LAX202102250824SFO202102251003EDL2564_1_USD121.28_4612385947009204-4612385947015494-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 101.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 121.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "DL",
+          "totalFare": 121.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            3
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1319323691
+          }
+        ],
+        "totalTripDurationInHours": 237,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 25,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          3
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 1,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 120.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947017234",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDcyBkklF4NlDJVqAf+9Dz0=",
+            "token": "R_SFO202102150830LAX202102150948SAA3204-LAX202102252000SFO202102252109OAA3159_1_USD140.28_4612385947009204-4612385947017234-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 120.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 140.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 140.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 815854649
+          }
+        ],
+        "totalTripDurationInHours": 252,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 26,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 130.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947014784",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDG3AEklF4NlDJVqAQA0D0Q=",
+            "token": "R_SFO202102150800LAX202102150938XAS1446-LAX202102250600SFO202102250730XAS2413_1_USD150.28_4612385947009204-4612385947014784-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 130.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 150.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 150.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 79001941
+          }
+        ],
+        "totalTripDurationInHours": 239,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 27,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 130.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013594",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNAaqAEolF4NlDJVqAQASD0I=",
+            "token": "R_SFO202102151900LAX202102152033XAS1238-LAX202102250700SFO202102250830XAS1425_1_USD150.28_4612385947009204-4612385947013594-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 130.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 150.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 150.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1224760852
+          }
+        ],
+        "totalTripDurationInHours": 229,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 28,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          3,
+          6
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 2,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 140.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013614",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDYzBEklF4NlDJVqAf+bDzs=",
+            "token": "R_SFO202102150540LAX202102150658GAA3160-LAX202102252130SFO202102252239OAA3202_1_USD160.28_4612385947009204-4612385947013614-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 140.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 160.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 160.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 2136039834
+          }
+        ],
+        "totalTripDurationInHours": 256,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_B6)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 29,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 144.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947015634",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDUzBkklF4NlDJVqAf/bDz8=",
+            "token": "R_SFO202102150820LAX202102150953LB62835-LAX202102251737SFO202102251907LB62736_1_USD164.28_4612385947009204-4612385947015634-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 144.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 164.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "B6",
+          "totalFare": 164.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            5
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1047931149
+          }
+        ],
+        "totalTripDurationInHours": 250,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_B6)",
+        "baggages": [],
+        "changesAllowed": false,
+        "id": 30,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 144.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947014034",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDEwBkklF4NlDJVqAf9qDzg=",
+            "token": "R_SFO202102151952LAX202102152121LB62735-LAX202102250600SFO202102250735LB62836_1_USD164.28_4612385947009204-4612385947014034-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 144.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 164.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "B6",
+          "totalFare": 164.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            5
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1177013868
+          }
+        ],
+        "totalTripDurationInHours": 227,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 31,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          3
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 2,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 161.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012954",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLI0BUklF4NlDJVqAQAFD0E=",
+            "token": "R_SFO202102151300LAX202102151418VAA3179-LAX202102252130SFO202102252239OAA3202_1_USD181.28_4612385947009204-4612385947012954-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 161.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 181.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 181.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1546308685
+          }
+        ],
+        "totalTripDurationInHours": 249,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 32,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          3
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 161.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012874",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLIwB0klF4NlDJVqAQATD0I=",
+            "token": "R_SFO202102151730LAX202102151848VAA3183-LAX202102251230SFO202102251339OAA2908_1_USD181.28_4612385947009204-4612385947012874-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 161.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 181.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 181.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 928438356
+          }
+        ],
+        "totalTripDurationInHours": 236,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 33,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "marriageGroup": [
+          [
+            1,
+            2
+          ]
+        ],
+        "merchandisingValues": [
+          6
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 161.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013224",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDYyAkklF4NlDJVqAf9qDzg=",
+            "token": "R_SFO202102150600PHX202102150909VAA2042~PHX202102151100LAX202102151118VAA1174-LAX202102250800SFO202102250909OAA2912_1_USD185.78_4612385947009204-4612385947013224-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 161.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 185.78,
+              "totalTaxes": 24.7
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 185.78,
+          "totalTaxes": 24.7,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1912399115
+          }
+        ],
+        "totalTripDurationInHours": 243,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AA)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 34,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "marriageGroup": [
+          [
+            1,
+            2
+          ]
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 16,
+        "pricingInfo": {
+          "baseFare": 161.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013284",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDayAEklF4NlDJVqAf/EDz4=",
+            "token": "R_SFO202102151545PHX202102151846VAA475~PHX202102152105LAX202102152123VAA820-LAX202102250630SFO202102250739OAA1908_1_USD185.78_4612385947009204-4612385947013284-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 161.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 185.78,
+              "totalTaxes": 24.7
+            }
+          },
+          "ticketingAirline": "AA",
+          "totalFare": 185.78,
+          "totalTaxes": 24.7,
+          "uniqueBaggageId": [
+            2
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 862837428
+          }
+        ],
+        "totalTripDurationInHours": 231,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 35,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchandisingValues": [
+          6
+        ],
+        "merchantOfRecord": "CXR",
+        "numSeats": 6,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 171.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012884",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLKwAEklF4NlDJVqAQAiD0M=",
+            "token": "R_SFO202102150600LAX202102150739VAS3318-LAX202102251145SFO202102251315RAS1489_1_USD191.28_4612385947009204-4612385947012884-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 171.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 191.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 191.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 614086350
+          }
+        ],
+        "totalTripDurationInHours": 247,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 36,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 171.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947015404",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDUBSyUXg2UMlWoB/44POg==",
+            "token": "R_SFO202102151500LAX202102151633VAS418-LAX202102250700SFO202102250830RAS1425_1_USD191.28_4612385947009204-4612385947015404-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 171.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 191.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 191.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 1006256430
+          }
+        ],
+        "totalTripDurationInHours": 233,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 37,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 7,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 172.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947013834",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLYwBkklF4NlDJVqAf/ZDz8=",
+            "token": "R_SFO202102150700LAX202102150838LAS3320-LAX202102250700SFO202102250830RAS1425_1_USD192.28_4612385947009204-4612385947013834-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 172.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 192.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 192.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 55745777
+          }
+        ],
+        "totalTripDurationInHours": 241,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 38,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 4,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 172.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947016704",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNDMHSyUXg2UMlWoB/88PPg==",
+            "token": "R_SFO202102151040LAX202102151218LAS3432-LAX202102250600SFO202102250730RAS2413_1_USD192.28_4612385947009204-4612385947016704-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 172.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 192.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 192.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 2005149873
+          }
+        ],
+        "totalTripDurationInHours": 236,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 39,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 5,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 172.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947012814",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLIwBEklF4NlDJVqAf+qDzw=",
+            "token": "R_SFO202102151135LAX202102151314LAS3444-LAX202102250700SFO202102250830RAS1425_1_USD192.28_4612385947009204-4612385947012814-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 172.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 192.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 192.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 99839054
+          }
+        ],
+        "totalTripDurationInHours": 236,
+        "upsellOptions": []
+      },
+      {
+        "baggageURL": "https://www.priceline.com/help#/faq/ext(baggage_fee_AS)",
+        "baggages": [],
+        "changesAllowed": true,
+        "id": 40,
+        "isCugEligible": false,
+        "isFareFamily": true,
+        "isFused": false,
+        "isSaleEligible": false,
+        "isSynthesized": false,
+        "lapInfantsAllowed": true,
+        "merchantOfRecord": "CXR",
+        "numSeats": 3,
+        "openJaw": false,
+        "passportRequired": false,
+        "paxMinAge": 15,
+        "pricingInfo": {
+          "baseFare": 172.08,
+          "changeInfos": [],
+          "currencyCode": "USD",
+          "fareInfos": [],
+          "fees": [
+            {
+              "amount": 0,
+              "feeCode": "OFFER"
+            }
+          ],
+          "itineraryReference": {
+            "groupId": "4612385947009204",
+            "refId": "4612385947015884",
+            "refKey": "eAGrVkov8kxRslIyMTM0MrYwtTQxNzCwNDIwUdJRKkpNQ5cyNLWwAEklF4NlDJVqAQBVD0Y=",
+            "token": "R_SFO202102151300LAX202102151439LAS3456-LAX202102250600SFO202102250730RAS2413_1_USD192.28_4612385947009204-4612385947015884-1"
+          },
+          "paxTypePrices": {
+            "ADT": {
+              "display": 1,
+              "pointOfSale": 1,
+              "transaction": 1
+            }
+          },
+          "pricesByType": {
+            "1": {
+              "baseFare": 172.08,
+              "currencyCode": "USD",
+              "fees": [
+                {
+                  "amount": 0,
+                  "feeCode": "OFFER"
+                }
+              ],
+              "totalFare": 192.28,
+              "totalTaxes": 20.2
+            }
+          },
+          "ticketingAirline": "AS",
+          "totalFare": 192.28,
+          "totalTaxes": 20.2,
+          "uniqueBaggageId": [
+            4
+          ],
+          "voidWindowClose": "2020-10-30T23:29:00",
+          "voidWindowCloseTZDesignator": "-0400"
+        },
+        "slice": [
+          {
+            "sliceRefId": 1,
+            "uniqueSliceId": 2090139315
+          }
+        ],
+        "totalTripDurationInHours": 234,
+        "upsellOptions": []
+      }
+    ],
+    "providerCoverage": "ALL",
+    "referrals": [
+      {
+        "external": {
+          "refId": "MOBILE",
+          "referralSourceId": "MD"
+        }
+      }
+    ],
+    "requestId": "",
+    "responseTimeStamp": "2020-10-29T19:20:58",
+    "rspMetaData": {
+      "filteredCount": 63,
+      "lowerBound": 1,
+      "sliceRefId": [
+        1
+      ],
+      "totalItineraries": 919,
+      "upperBound": 40
+    },
+    "searchId": "1",
+    "searchSessionKey": "46123859474",
+    "segment": [
+      {
+        "arrivalDateTime": "2021-02-15T12:18:00",
+        "departDateTime": "2021-02-15T10:45:00",
+        "destAirport": "LAX",
+        "duration": 93,
+        "equipmentCode": "319",
+        "flightNumber": "2564",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 811783331
+      },
+      {
+        "arrivalDateTime": "2021-02-15T07:39:00",
+        "departDateTime": "2021-02-15T06:00:00",
+        "destAirport": "LAX",
+        "duration": 99,
+        "equipmentCode": "E75",
+        "flightNumber": "3318",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": true,
+        "marketingAirline": "AS",
+        "operatingAirline": "@8",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 2139597762
+      },
+      {
+        "arrivalDateTime": "2021-02-15T20:43:00",
+        "departDateTime": "2021-02-15T19:19:00",
+        "destAirport": "LAX",
+        "duration": 84,
+        "equipmentCode": "738",
+        "flightNumber": "402",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 2020089262
+      },
+      {
+        "arrivalDateTime": "2021-02-15T09:38:00",
+        "departDateTime": "2021-02-15T08:00:00",
+        "destAirport": "LAX",
+        "duration": 98,
+        "equipmentCode": "320",
+        "flightNumber": "1446",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AS",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 766303787
+      },
+      {
+        "arrivalDateTime": "2021-02-15T21:48:00",
+        "departDateTime": "2021-02-15T20:30:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "738",
+        "flightNumber": "1888",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1612900325
+      },
+      {
+        "arrivalDateTime": "2021-02-15T18:46:00",
+        "departDateTime": "2021-02-15T15:45:00",
+        "destAirport": "PHX",
+        "duration": 121,
+        "equipmentCode": "321",
+        "flightNumber": "475",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1554652323
+      },
+      {
+        "arrivalDateTime": "2021-02-15T14:39:00",
+        "departDateTime": "2021-02-15T13:00:00",
+        "destAirport": "LAX",
+        "duration": 99,
+        "equipmentCode": "E75",
+        "flightNumber": "3456",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": true,
+        "marketingAirline": "AS",
+        "operatingAirline": "@8",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1548561095
+      },
+      {
+        "arrivalDateTime": "2021-02-15T20:14:00",
+        "departDateTime": "2021-02-15T18:30:00",
+        "destAirport": "LAX",
+        "duration": 104,
+        "equipmentCode": "739",
+        "flightNumber": "2264",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 2087300322
+      },
+      {
+        "arrivalDateTime": "2021-02-15T21:23:00",
+        "departDateTime": "2021-02-15T21:05:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "321",
+        "flightNumber": "820",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "PHX",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 606769062
+      },
+      {
+        "arrivalDateTime": "2021-02-15T12:43:00",
+        "departDateTime": "2021-02-15T11:00:00",
+        "destAirport": "LAX",
+        "duration": 103,
+        "equipmentCode": "738",
+        "flightNumber": "256",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 582766195
+      },
+      {
+        "arrivalDateTime": "2021-02-15T11:18:00",
+        "departDateTime": "2021-02-15T11:00:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "321",
+        "flightNumber": "1174",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "PHX",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 201535955
+      },
+      {
+        "arrivalDateTime": "2021-02-16T00:24:00",
+        "departDateTime": "2021-02-15T22:45:00",
+        "destAirport": "LAX",
+        "duration": 99,
+        "equipmentCode": "319",
+        "flightNumber": "257",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1936075892
+      },
+      {
+        "arrivalDateTime": "2021-02-15T10:42:00",
+        "departDateTime": "2021-02-15T09:10:00",
+        "destAirport": "LAX",
+        "duration": 92,
+        "equipmentCode": "738",
+        "flightNumber": "2992",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1297572676
+      },
+      {
+        "arrivalDateTime": "2021-02-15T15:38:00",
+        "departDateTime": "2021-02-15T14:00:00",
+        "destAirport": "LAX",
+        "duration": 98,
+        "equipmentCode": "738",
+        "flightNumber": "2114",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 552433982
+      },
+      {
+        "arrivalDateTime": "2021-02-15T16:34:00",
+        "departDateTime": "2021-02-15T15:07:00",
+        "destAirport": "LAX",
+        "duration": 87,
+        "equipmentCode": "319",
+        "flightNumber": "2501",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1110721696
+      },
+      {
+        "arrivalDateTime": "2021-02-15T20:33:00",
+        "departDateTime": "2021-02-15T19:00:00",
+        "destAirport": "LAX",
+        "duration": 93,
+        "equipmentCode": "320",
+        "flightNumber": "1238",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AS",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1863971980
+      },
+      {
+        "arrivalDateTime": "2021-02-15T12:18:00",
+        "departDateTime": "2021-02-15T10:40:00",
+        "destAirport": "LAX",
+        "duration": 98,
+        "equipmentCode": "E75",
+        "flightNumber": "3432",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": true,
+        "marketingAirline": "AS",
+        "operatingAirline": "@8",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 2032234615
+      },
+      {
+        "arrivalDateTime": "2021-02-15T09:48:00",
+        "departDateTime": "2021-02-15T08:30:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "CR7",
+        "flightNumber": "3204",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "operatingAirline": "W(",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 2133428927
+      },
+      {
+        "arrivalDateTime": "2021-02-15T18:48:00",
+        "departDateTime": "2021-02-15T17:30:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "CR7",
+        "flightNumber": "3183",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "operatingAirline": "W(",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 488629257
+      },
+      {
+        "arrivalDateTime": "2021-02-15T08:21:00",
+        "departDateTime": "2021-02-15T06:30:00",
+        "destAirport": "LAX",
+        "duration": 111,
+        "equipmentCode": "739",
+        "flightNumber": "504",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 328092953
+      },
+      {
+        "arrivalDateTime": "2021-02-15T15:48:00",
+        "departDateTime": "2021-02-15T14:30:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "319",
+        "flightNumber": "2908",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 815415107
+      },
+      {
+        "arrivalDateTime": "2021-02-15T14:11:00",
+        "departDateTime": "2021-02-15T12:46:00",
+        "destAirport": "LAX",
+        "duration": 85,
+        "equipmentCode": "738",
+        "flightNumber": "2664",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1656255202
+      },
+      {
+        "arrivalDateTime": "2021-02-15T12:53:00",
+        "departDateTime": "2021-02-15T11:35:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "738",
+        "flightNumber": "1908",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1224239332
+      },
+      {
+        "arrivalDateTime": "2021-02-15T06:58:00",
+        "departDateTime": "2021-02-15T05:40:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "CR7",
+        "flightNumber": "3160",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "operatingAirline": "W(",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 304750966
+      },
+      {
+        "arrivalDateTime": "2021-02-15T09:14:00",
+        "departDateTime": "2021-02-15T07:45:00",
+        "destAirport": "LAX",
+        "duration": 89,
+        "equipmentCode": "319",
+        "flightNumber": "2887",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1279414559
+      },
+      {
+        "arrivalDateTime": "2021-02-15T18:42:00",
+        "departDateTime": "2021-02-15T17:15:00",
+        "destAirport": "LAX",
+        "duration": 87,
+        "equipmentCode": "319",
+        "flightNumber": "2457",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 794722688
+      },
+      {
+        "arrivalDateTime": "2021-02-15T11:13:00",
+        "departDateTime": "2021-02-15T09:30:00",
+        "destAirport": "LAX",
+        "duration": 103,
+        "equipmentCode": "738",
+        "flightNumber": "1698",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1660625444
+      },
+      {
+        "arrivalDateTime": "2021-02-15T14:28:00",
+        "departDateTime": "2021-02-15T12:45:00",
+        "destAirport": "LAX",
+        "duration": 103,
+        "equipmentCode": "739",
+        "flightNumber": "2166",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1463790943
+      },
+      {
+        "arrivalDateTime": "2021-02-15T21:52:00",
+        "departDateTime": "2021-02-15T20:00:00",
+        "destAirport": "LAX",
+        "duration": 112,
+        "equipmentCode": "739",
+        "flightNumber": "1200",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1109280767
+      },
+      {
+        "arrivalDateTime": "2021-02-15T09:09:00",
+        "departDateTime": "2021-02-15T06:00:00",
+        "destAirport": "PHX",
+        "duration": 129,
+        "equipmentCode": "321",
+        "flightNumber": "2042",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 602485709
+      },
+      {
+        "arrivalDateTime": "2021-02-15T11:18:00",
+        "departDateTime": "2021-02-15T10:00:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "738",
+        "flightNumber": "2912",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 288419164
+      },
+      {
+        "arrivalDateTime": "2021-02-15T14:18:00",
+        "departDateTime": "2021-02-15T13:00:00",
+        "destAirport": "LAX",
+        "duration": 78,
+        "equipmentCode": "CR7",
+        "flightNumber": "3179",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "AA",
+        "operatingAirline": "W(",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": true,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 477281182
+      },
+      {
+        "arrivalDateTime": "2021-02-15T18:44:00",
+        "departDateTime": "2021-02-15T17:00:00",
+        "destAirport": "LAX",
+        "duration": 104,
+        "equipmentCode": "739",
+        "flightNumber": "638",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1905642811
+      },
+      {
+        "arrivalDateTime": "2021-02-15T07:25:00",
+        "departDateTime": "2021-02-15T06:00:00",
+        "destAirport": "LAX",
+        "duration": 85,
+        "equipmentCode": "319",
+        "flightNumber": "2648",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "DL",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1456160996
+      },
+      {
+        "arrivalDateTime": "2021-02-15T09:52:00",
+        "departDateTime": "2021-02-15T08:00:00",
+        "destAirport": "LAX",
+        "duration": 112,
+        "equipmentCode": "739",
+        "flightNumber": "1069",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1812918462
+      },
+      {
+        "arrivalDateTime": "2021-02-15T16:33:00",
+        "departDateTime": "2021-02-15T15:00:00",
+        "destAirport": "LAX",
+        "duration": 93,
+        "equipmentCode": "73H",
+        "flightNumber": "418",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": true,
+        "marketingAirline": "AS",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 726723489
+      },
+      {
+        "arrivalDateTime": "2021-02-15T23:22:00",
+        "departDateTime": "2021-02-15T21:30:00",
+        "destAirport": "LAX",
+        "duration": 112,
+        "equipmentCode": "739",
+        "flightNumber": "1294",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 374725860
+      },
+      {
+        "arrivalDateTime": "2021-02-15T13:14:00",
+        "departDateTime": "2021-02-15T11:35:00",
+        "destAirport": "LAX",
+        "duration": 99,
+        "equipmentCode": "E75",
+        "flightNumber": "3444",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": true,
+        "marketingAirline": "AS",
+        "operatingAirline": "@8",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 241836760
+      },
+      {
+        "arrivalDateTime": "2021-02-15T21:21:00",
+        "departDateTime": "2021-02-15T19:52:00",
+        "destAirport": "LAX",
+        "duration": 89,
+        "equipmentCode": "320",
+        "flightNumber": "2735",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "B6",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1831108817
+      },
+      {
+        "arrivalDateTime": "2021-02-15T09:53:00",
+        "departDateTime": "2021-02-15T08:20:00",
+        "destAirport": "LAX",
+        "duration": 93,
+        "equipmentCode": "320",
+        "flightNumber": "2835",
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "B6",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": false,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1619386608
+      },
+      {
+        "arrivalDateTime": "2021-02-15T08:38:00",
+        "departDateTime": "2021-02-15T07:00:00",
+        "destAirport": "LAX",
+        "duration": 98,
+        "equipmentCode": "E75",
+        "flightNumber": "3320",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": true,
+        "marketingAirline": "AS",
+        "operatingAirline": "@8",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1825644523
+      },
+      {
+        "arrivalDateTime": "2021-02-15T17:14:00",
+        "departDateTime": "2021-02-15T15:30:00",
+        "destAirport": "LAX",
+        "duration": 104,
+        "equipmentCode": "739",
+        "flightNumber": "215",
+        "genericSeatAssgnCost": {
+          "amount": 0,
+          "currencyCode": "USD"
+        },
+        "genericSeatAssgnFlag": false,
+        "marketingAirline": "UA",
+        "origAirport": "SFO",
+        "premiumSeatingFlag": false,
+        "seatmapAvailable": true,
+        "stopQuantity": 0,
+        "subjectToGovtApproval": false,
+        "uniqueSegId": 1077221386
+      }
+    ],
+    "slice": [
+      {
+        "duration": 103,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 582766195
+          }
+        ],
+        "sliceKey": "0215SFOUA256G591504b2",
+        "uniqueSliceId": 1639111218
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 488629257
+          }
+        ],
+        "sliceKey": "0215SFOAA3183V645313b1",
+        "uniqueSliceId": 928438356
+      },
+      {
+        "duration": 87,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 794722688
+          }
+        ],
+        "sliceKey": "0215SFODL2457E620960b3",
+        "uniqueSliceId": 370078285
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "O",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1612900325
+          }
+        ],
+        "sliceKey": "0215SFOAA1888O645313b1",
+        "uniqueSliceId": 1203535231
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 3,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 304750966
+          }
+        ],
+        "sliceKey": "0215SFOAA3160G645313b1",
+        "uniqueSliceId": 2136039834
+      },
+      {
+        "duration": 85,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1656255202
+          }
+        ],
+        "sliceKey": "0215SFODL2664E620960b3",
+        "uniqueSliceId": 1319323691
+      },
+      {
+        "duration": 89,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "L",
+            "brandId": "664318b5",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1831108817
+          }
+        ],
+        "sliceKey": "0215SFOB62735L664318b5",
+        "uniqueSliceId": 1177013868
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "Q",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 3,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 815415107
+          }
+        ],
+        "sliceKey": "0215SFOAA2908Q645313b1",
+        "uniqueSliceId": 1084984999
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "N",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1224239332
+          }
+        ],
+        "sliceKey": "0215SFOAA1908N645313b1",
+        "uniqueSliceId": 335814101
+      },
+      {
+        "duration": 93,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "X",
+            "brandId": "645142b4",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1863971980
+          }
+        ],
+        "sliceKey": "0215SFOAS1238X645142b4",
+        "uniqueSliceId": 1224760852
+      },
+      {
+        "duration": 93,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645141b6",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": true,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 726723489
+          }
+        ],
+        "sliceKey": "0215SFOAS418V645141b6",
+        "uniqueSliceId": 1006256430
+      },
+      {
+        "duration": 99,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645141b6",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": true,
+            "id": 1,
+            "numSeats": 6,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 2139597762
+          }
+        ],
+        "sliceKey": "0215SFOAS3318V645141b6",
+        "uniqueSliceId": 614086350
+      },
+      {
+        "duration": 89,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1279414559
+          }
+        ],
+        "sliceKey": "0215SFODL2887E620960b3",
+        "uniqueSliceId": 949634190
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "S",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 1,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 2133428927
+          }
+        ],
+        "sliceKey": "0215SFOAA3204S645313b1",
+        "uniqueSliceId": 815854649
+      },
+      {
+        "duration": 338,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1554652323
+          },
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 2,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 606769062
+          }
+        ],
+        "sliceKey": "0215SFOAA475V645313b1AA820V645313b1",
+        "uniqueSliceId": 862837428
+      },
+      {
+        "duration": 104,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1077221386
+          }
+        ],
+        "sliceKey": "0215SFOUA215G591504b2",
+        "uniqueSliceId": 433495567
+      },
+      {
+        "duration": 98,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 552433982
+          }
+        ],
+        "sliceKey": "0215SFOUA2114G591504b2",
+        "uniqueSliceId": 434406143
+      },
+      {
+        "duration": 93,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 811783331
+          }
+        ],
+        "sliceKey": "0215SFODL2564E620960b3",
+        "uniqueSliceId": 1448406410
+      },
+      {
+        "duration": 112,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 374725860
+          }
+        ],
+        "sliceKey": "0215SFOUA1294G591504b2",
+        "uniqueSliceId": 633817115
+      },
+      {
+        "duration": 98,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "X",
+            "brandId": "645142b4",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 766303787
+          }
+        ],
+        "sliceKey": "0215SFOAS1446X645142b4",
+        "uniqueSliceId": 79001941
+      },
+      {
+        "duration": 87,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1110721696
+          }
+        ],
+        "sliceKey": "0215SFODL2501E620960b3",
+        "uniqueSliceId": 1332907667
+      },
+      {
+        "duration": 98,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "L",
+            "brandId": "645141b6",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": true,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1825644523
+          }
+        ],
+        "sliceKey": "0215SFOAS3320L645141b6",
+        "uniqueSliceId": 55745777
+      },
+      {
+        "duration": 99,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "L",
+            "brandId": "645141b6",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": true,
+            "id": 1,
+            "numSeats": 3,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1548561095
+          }
+        ],
+        "sliceKey": "0215SFOAS3456L645141b6",
+        "uniqueSliceId": 2090139315
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 2,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 477281182
+          }
+        ],
+        "sliceKey": "0215SFOAA3179V645313b1",
+        "uniqueSliceId": 1546308685
+      },
+      {
+        "duration": 112,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1109280767
+          }
+        ],
+        "sliceKey": "0215SFOUA1200G591504b2",
+        "uniqueSliceId": 855070048
+      },
+      {
+        "duration": 104,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1905642811
+          }
+        ],
+        "sliceKey": "0215SFOUA638G591504b2",
+        "uniqueSliceId": 1061350506
+      },
+      {
+        "duration": 78,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "O",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 288419164
+          }
+        ],
+        "sliceKey": "0215SFOAA2912O645313b1",
+        "uniqueSliceId": 1912053598
+      },
+      {
+        "duration": 112,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1812918462
+          }
+        ],
+        "sliceKey": "0215SFOUA1069G591504b2",
+        "uniqueSliceId": 778663297
+      },
+      {
+        "duration": 103,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1463790943
+          }
+        ],
+        "sliceKey": "0215SFOUA2166G591504b2",
+        "uniqueSliceId": 353443070
+      },
+      {
+        "duration": 99,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1936075892
+          }
+        ],
+        "sliceKey": "0215SFOUA257G591504b2",
+        "uniqueSliceId": 1442597713
+      },
+      {
+        "duration": 104,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 2087300322
+          }
+        ],
+        "sliceKey": "0215SFOUA2264G591504b2",
+        "uniqueSliceId": 168666659
+      },
+      {
+        "duration": 84,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 2020089262
+          }
+        ],
+        "sliceKey": "0215SFODL402E620960b3",
+        "uniqueSliceId": 1024284835
+      },
+      {
+        "duration": 111,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 328092953
+          }
+        ],
+        "sliceKey": "0215SFOUA504G591504b2",
+        "uniqueSliceId": 1480758708
+      },
+      {
+        "duration": 98,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "L",
+            "brandId": "645141b6",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": true,
+            "id": 1,
+            "numSeats": 4,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 2032234615
+          }
+        ],
+        "sliceKey": "0215SFOAS3432L645141b6",
+        "uniqueSliceId": 2005149873
+      },
+      {
+        "duration": 318,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 602485709
+          },
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "V",
+            "brandId": "645313b1",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 2,
+            "numSeats": 7,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 201535955
+          }
+        ],
+        "sliceKey": "0215SFOAA2042V645313b1AA1174V645313b1",
+        "uniqueSliceId": 1912399115
+      },
+      {
+        "duration": 85,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1456160996
+          }
+        ],
+        "sliceKey": "0215SFODL2648E620960b3",
+        "uniqueSliceId": 1488525007
+      },
+      {
+        "duration": 103,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "G",
+            "brandId": "591504b2",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 1660625444
+          }
+        ],
+        "sliceKey": "0215SFOUA1698G591504b2",
+        "uniqueSliceId": 903540259
+      },
+      {
+        "duration": 93,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "L",
+            "brandId": "664318b5",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 7,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1619386608
+          }
+        ],
+        "sliceKey": "0215SFOB62835L664318b5",
+        "uniqueSliceId": 1047931149
+      },
+      {
+        "duration": 92,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": false,
+            "allowPreferredSeating": false,
+            "allowPriorityBoarding": false,
+            "allowStandby": false,
+            "bkgClass": "E",
+            "brandId": "620960b3",
+            "cabinClass": "BEC",
+            "cabinName": "Basic Economy",
+            "genericSeatAssgnFlag": false,
+            "id": 1,
+            "numSeats": 9,
+            "seatSelectionAllowed": false,
+            "seatmapAvailable": false,
+            "uniqueSegId": 1297572676
+          }
+        ],
+        "sliceKey": "0215SFODL2992E620960b3",
+        "uniqueSliceId": 1634935305
+      },
+      {
+        "duration": 99,
+        "overnightLayover": false,
+        "segment": [
+          {
+            "allowCabinUpgrades": true,
+            "allowPreferredSeating": true,
+            "allowPriorityBoarding": true,
+            "allowStandby": true,
+            "bkgClass": "L",
+            "brandId": "645141b6",
+            "cabinClass": "ECO",
+            "cabinName": "Economy Class",
+            "genericSeatAssgnCost": {
+              "amount": 0,
+              "currencyCode": "USD"
+            },
+            "genericSeatAssgnFlag": true,
+            "id": 1,
+            "numSeats": 5,
+            "seatSelectionAllowed": true,
+            "seatmapAvailable": true,
+            "uniqueSegId": 241836760
+          }
+        ],
+        "sliceKey": "0215SFOAS3444L645141b6",
+        "uniqueSliceId": 99839054
+      }
+    ],
+    "sliceSummary": [
+      {
+        "maxDuration": 769,
+        "maxLandingTime": "2021-02-16T00:24:00",
+        "maxLayover": 383,
+        "maxTakeoffTime": "2021-02-15T22:45:00",
+        "minDuration": 78,
+        "minLandingTime": "2021-02-15T06:58:00",
+        "minLayover": 29,
+        "minTakeoffTime": "2021-02-15T05:40:00",
+        "sliceRefId": 1
+      }
+    ],
+    "totalTripSummary": {
+      "airline": [
+        {
+          "code": "AA",
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numItineraries": 150,
+          "sponsored": false
+        },
+        {
+          "code": "AS",
+          "lowestTotalFare": {
+            "amount": 150.2,
+            "currency": "USD"
+          },
+          "numItineraries": 252,
+          "sponsored": false
+        },
+        {
+          "code": "B6",
+          "lowestTotalFare": {
+            "amount": 164.2,
+            "currency": "USD"
+          },
+          "numItineraries": 4,
+          "sponsored": false
+        },
+        {
+          "code": "DL",
+          "lowestTotalFare": {
+            "amount": 106.2,
+            "currency": "USD"
+          },
+          "numItineraries": 64,
+          "sponsored": true
+        },
+        {
+          "code": "UA",
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numItineraries": 262,
+          "sponsored": false
+        }
+      ],
+      "airport": [
+        {
+          "destination": "LAX",
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numItineraries": 919,
+          "origin": "SFO"
+        }
+      ],
+      "carrier": [
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 96.2,
+                  "numberOfItineraries": 64,
+                  "stop": 0
+                },
+                {
+                  "lowestTotalFare": 125.7,
+                  "numberOfItineraries": 48,
+                  "stop": 1
+                },
+                {
+                  "lowestTotalFare": 183.2,
+                  "numberOfItineraries": 38,
+                  "stop": 2
+                }
+              ]
+            }
+          ],
+          "code": "AA"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 150.2,
+                  "numberOfItineraries": 169,
+                  "stop": 0
+                },
+                {
+                  "lowestTotalFare": 197.7,
+                  "numberOfItineraries": 102,
+                  "stop": 1
+                }
+              ]
+            }
+          ],
+          "code": "AS"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 164.2,
+                  "numberOfItineraries": 4,
+                  "stop": 0
+                }
+              ]
+            }
+          ],
+          "code": "B6"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 106.2,
+                  "numberOfItineraries": 144,
+                  "stop": 0
+                },
+                {
+                  "lowestTotalFare": 303.7,
+                  "numberOfItineraries": 56,
+                  "stop": 1
+                }
+              ]
+            }
+          ],
+          "code": "DL"
+        },
+        {
+          "airport": [
+            {
+              "destAirport": "LAX",
+              "origAirport": "SFO",
+              "stops": [
+                {
+                  "lowestTotalFare": 96.2,
+                  "numberOfItineraries": 164,
+                  "stop": 0
+                },
+                {
+                  "lowestTotalFare": 223.2,
+                  "numberOfItineraries": 130,
+                  "stop": 1
+                }
+              ]
+            }
+          ],
+          "code": "UA"
+        }
+      ],
+      "itineraries": 919,
+      "layoverAirport": [
+        {
+          "code": "BOI",
+          "lowestTotalFare": {
+            "amount": 197.7,
+            "currency": "USD"
+          },
+          "name": "Boise Air Terminal/Gowen Field"
+        },
+        {
+          "code": "LAS",
+          "lowestTotalFare": {
+            "amount": 256.7,
+            "currency": "USD"
+          },
+          "name": "McCarran Intl Airport"
+        },
+        {
+          "code": "PHX",
+          "lowestTotalFare": {
+            "amount": 125.7,
+            "currency": "USD"
+          },
+          "name": "Phoenix Sky Harbor Intl Airport"
+        },
+        {
+          "code": "RNO",
+          "lowestTotalFare": {
+            "amount": 368.7,
+            "currency": "USD"
+          },
+          "name": "Reno Tahoe Intl Airport"
+        },
+        {
+          "code": "SAN",
+          "lowestTotalFare": {
+            "amount": 223.2,
+            "currency": "USD"
+          },
+          "name": "San Diego Intl Airport (Lindbergh Field)"
+        },
+        {
+          "code": "SEA",
+          "lowestTotalFare": {
+            "amount": 262.7,
+            "currency": "USD"
+          },
+          "name": "Seattle-Tacoma Intl Airport"
+        }
+      ],
+      "lowestInterlineTotalFare": 231.2,
+      "maxDuration": 1393,
+      "maxLayover": 383,
+      "maxTotalFare": 382,
+      "maxTotalFareWithTaxesAndFees": 406.7,
+      "minDuration": 147,
+      "minDurationFareWithTaxesAndFees": 96.2,
+      "minLayover": 29,
+      "minTotalFare": 76,
+      "minTotalFareWithTaxesAndFees": 96.2,
+      "minTotalFareWithTaxesAndFeesNonSplit": 96.2,
+      "stop": [
+        {
+          "lowestTotalFare": {
+            "amount": 96.2,
+            "currency": "USD"
+          },
+          "numberOfItineraries": 545,
+          "numberOfStops": 0
+        },
+        {
+          "lowestTotalFare": {
+            "amount": 125.7,
+            "currency": "USD"
+          },
+          "numberOfItineraries": 336,
+          "numberOfStops": 1
+        },
+        {
+          "lowestTotalFare": {
+            "amount": 183.2,
+            "currency": "USD"
+          },
+          "numberOfItineraries": 38,
+          "numberOfStops": 2
+        }
+      ]
+    },
+    "travelInsurance": [
+      {
+        "cost": 18,
+        "countryCode": "US"
+      },
+      {
+        "cost": 18,
+        "countryCode": "CA"
+      }
+    ]
+  },
+  "processorID": "009",
+  "resultCode": 0,
+  "resultMessage": "Success"
+}

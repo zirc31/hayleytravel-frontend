@@ -1,0 +1,298 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #800000; */
+    background-color: #fff;
+}
+
+.half-width, .content-left, .content-right {
+    width: 50%;
+}
+.full-width {
+    width: 100%;
+}
+.full-width-left {
+    width: 100%;
+    text-align: left;
+}
+.full-height-vh {
+	height: 100vh;
+}
+.full-section {
+    width: 100%;
+    height: 100vh;
+}
+.width-auto {
+	width: auto;
+}
+.height-auto {
+	height: auto;
+}
+.auto-wh {
+	width: auto;
+	height: auto;
+}
+
+.tx-align-l {
+    text-align: left;
+}
+
+.flex-left {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-full-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
+}
+
+.app-container {
+    width: 100%;
+    /* padding: 100px 0 50px 0; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.app-content {
+    width: 80%;
+}
+
+.section-wrap {
+    position: relative;
+}
+
+.section-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.section-bg-default {
+    opacity: 0.3;
+    background-image: url('./assets/loginbg.min.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.section-wrap-content {
+    position: relative;
+}
+
+.section-content {
+    width: 100%;
+	height: 80vh;
+}
+
+.hero500 {
+    height: 500px;
+}
+.hero800 {
+    height: 800px;
+}
+.hero-full-vh {
+    height: 100vh;
+}
+
+.pd-t-5 {
+    padding-top: 5px;
+}
+.pd-t-10 {
+    padding-top: 10px;
+}
+.pd-t-15 {
+    padding-top: 15px;
+}
+.pd-b-5 {
+    padding-bottom: 5px;
+}
+.pd-b-10 {
+    padding-bottom: 10px;
+}
+.pd-b-15 {
+    padding-bottom: 15px;
+}
+.pd-all-5 {
+    padding: 5px;
+}
+.pd-all-10 {
+    padding: 10px;
+}
+.pd-all-15 {
+    padding: 15px;
+}
+.pd-all-20 {
+    padding: 15px;
+}
+.mg-t-5 {
+    margin-top: 5px;
+}
+.mg-t-10 {
+    margin-top: 10px;
+}
+.mg-t-15 {
+    margin-top: 15px;
+}
+.mg-b-5 {
+    margin-bottom: 5px;
+}
+.mg-b-10 {
+    margin-bottom: 10px;
+}
+.mg-b-15 {
+    margin-bottom: 15px;
+}
+.mg-l-5 {
+	margin-left: 5px;
+}
+.mg-l-10 {
+	margin-left: 10px;
+}
+.mg-l-15 {
+	margin-left: 15px;
+}
+.mg-r-15 {
+	margin-right: 15px;
+}
+.mg-all-10 {
+    margin: 10px;
+}
+.mg-all-15 {
+    margin: 15px;
+}
+
+.bd-red {
+    border: 1px solid red;
+}
+.bd-black {
+    border: 1px solid black;
+}
+.bd-gray {
+    border: 1px solid gray;
+}
+.bg-red {
+    background-color: red;
+}
+.bg-blue {
+    background-color: blue;
+}
+.bg-green {
+    background-color: green;
+}
+
+.hide {
+    display:none;
+}
+
+.link-pointer {
+    cursor: pointer;
+}
+
+.modal-container {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.modal-full-h {
+    height: 100vh;
+}
+
+.modal-content {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.modal-panel {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.modal-body-center, .modal-center {
+    text-align: center;
+}
+
+.modal-style-1 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-btn {
+    width: 100%;
+}
+.modal-body {
+	width: auto;
+    padding: 30px;
+	border-radius: 6px;
+}
+.modal-form {
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0;
+	margin: 0;
+}
+.modal-bg-255 {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.modal-bg-0 {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-over {
+	position: fixed;
+	left: 0;
+    top: 0;
+}
+.modal-error {
+	color: red;
+}
+
+.content-over {
+	position: fixed;
+    width: 100%;
+	height: 100vh;
+    left: 0;
+    top: 0;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+.content-container {
+	width: 100%;
+	height: auto;
+}
+.content-body {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.bckgrnd-booking {
+	background-image: url('./assets/pexels-spencer-davis-4353813.min.jpg');
+	opacity: 0.5;
+	background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}

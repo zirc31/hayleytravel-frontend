@@ -1,0 +1,15 @@
+.flex-1 {
+    flex: 1;
+}
+
+.suggest-from, .suggest-to {
+    position: absolute;
+    background-color: white;
+    padding: 5px 10px;
+    z-index: 999;
+}
+.suggest-from p:hover, .suggest-to p:hover {
+    background-color: lightgray;
+    cursor: pointer;
+    z-index: 999;
+}

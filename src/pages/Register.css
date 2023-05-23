@@ -1,0 +1,28 @@
+.register-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.register-wrap:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url('../assets/loginbg.min.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+
+.register-wrap-content {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}

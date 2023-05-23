@@ -1,0 +1,3955 @@
+{
+  "meta": {
+    "count": 20,
+    "links": {
+      "self": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=MNL&destinationLocationCode=BKK&departureDate=2023-05-10&returnDate=2023-05-13&adults=1&children=0&infants=0&travelClass=ECONOMY&nonStop=false&currencyCode=USD&max=20"
+    }
+  },
+  "data": [
+    {
+      "type": "flight-offer",
+      "id": "1",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "7",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T10:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "717",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H55M",
+              "id": "8",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T12:30:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "754",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "15",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T17:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T20:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "935",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "16",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "7",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "8",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "15",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "16",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "2",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H45M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T10:45:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T13:20:00"
+              },
+              "carrierCode": "CX",
+              "number": "906",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "9",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T14:25:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "751",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H5M",
+              "id": "10",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T12:30:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "754",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "15",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T17:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T20:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "935",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "16",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "9",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "10",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "15",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "16",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "3",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "7",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T10:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "717",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H55M",
+              "id": "8",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T16:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "712",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H50M",
+              "id": "17",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T21:55:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-14T00:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "939",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H20M",
+              "id": "18",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "7",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "8",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "17",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "18",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "4",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "7",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T10:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "717",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H55M",
+              "id": "8",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T15:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T19:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "654",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "19",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:30:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T22:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "913",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "20",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "7",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "8",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "19",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "20",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "5",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T08:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T10:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "912",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H30M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T12:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T14:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "653",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T12:30:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "754",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "15",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T17:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T20:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "935",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "16",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "15",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "16",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "6",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "7",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T10:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "717",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H55M",
+              "id": "8",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT7H5M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T11:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T15:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "750",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "11",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T19:05:00"
+              },
+              "carrierCode": "CX",
+              "number": "903",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H30M",
+              "id": "12",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "7",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "8",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "11",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "12",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "7",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H5M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "3",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:30:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T11:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "755",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "4",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T12:30:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "754",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "15",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T17:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T20:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "935",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "16",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "3",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "4",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "15",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "16",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "8",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H45M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T10:45:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T13:20:00"
+              },
+              "carrierCode": "CX",
+              "number": "906",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "9",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T14:25:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "751",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H5M",
+              "id": "10",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T16:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "712",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H50M",
+              "id": "17",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T21:55:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-14T00:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "939",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H20M",
+              "id": "18",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "9",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "10",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "17",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "18",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "9",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H45M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T10:45:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T13:20:00"
+              },
+              "carrierCode": "CX",
+              "number": "906",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "9",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T14:25:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "751",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H5M",
+              "id": "10",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T15:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T19:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "654",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "19",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:30:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T22:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "913",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "20",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "9",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "10",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "19",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "20",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "10",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H10M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T17:40:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "918",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "5",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T21:50:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T23:50:00"
+              },
+              "carrierCode": "CX",
+              "number": "617",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "6",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T12:30:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "754",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "15",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T17:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T20:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "935",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "16",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "5",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "6",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "15",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "16",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "11",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H30M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "7",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T10:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "717",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H55M",
+              "id": "8",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT7H20M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T08:10:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T12:10:00"
+              },
+              "carrierCode": "CX",
+              "number": "700",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "13",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T14:05:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "919",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "14",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "7",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "8",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "13",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "14",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "12",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T08:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T10:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "912",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H30M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T12:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T14:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "653",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T16:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "712",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H50M",
+              "id": "17",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T21:55:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-14T00:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "939",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H20M",
+              "id": "18",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "17",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "18",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "13",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H45M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T10:45:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T13:20:00"
+              },
+              "carrierCode": "CX",
+              "number": "906",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "9",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T14:25:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "751",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H5M",
+              "id": "10",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT7H5M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T11:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T15:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "750",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "11",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T19:05:00"
+              },
+              "carrierCode": "CX",
+              "number": "903",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H30M",
+              "id": "12",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "9",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "10",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "11",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "12",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "14",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H5M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "3",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:30:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T11:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "755",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "4",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T16:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "712",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H50M",
+              "id": "17",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T21:55:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-14T00:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "939",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H20M",
+              "id": "18",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "3",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "4",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "17",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "18",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "15",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T08:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T10:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "912",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H30M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T12:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T14:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "653",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T15:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T19:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "654",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "19",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:30:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T22:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "913",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "20",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "19",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "20",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "16",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H5M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T05:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T07:40:00"
+              },
+              "carrierCode": "CX",
+              "number": "976",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H15M",
+              "id": "3",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T09:30:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T11:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "755",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "4",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T15:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T19:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "654",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "19",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:30:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T22:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "913",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "20",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "3",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "4",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "19",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "20",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "17",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H10M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T17:40:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "918",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "5",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T21:50:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T23:50:00"
+              },
+              "carrierCode": "CX",
+              "number": "617",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "6",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H50M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T16:25:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "712",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H50M",
+              "id": "17",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T21:55:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-14T00:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "939",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H20M",
+              "id": "18",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "5",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "6",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "17",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "18",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "18",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T08:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T10:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "912",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H30M",
+              "id": "1",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T12:00:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T14:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "653",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "2",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT7H5M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T11:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T15:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "750",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "11",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T16:35:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T19:05:00"
+              },
+              "carrierCode": "CX",
+              "number": "903",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H30M",
+              "id": "12",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "1",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "2",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "11",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "12",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "19",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT6H45M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T10:45:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T13:20:00"
+              },
+              "carrierCode": "CX",
+              "number": "906",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "9",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T14:25:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "751",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H5M",
+              "id": "10",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT7H20M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T08:10:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T12:10:00"
+              },
+              "carrierCode": "CX",
+              "number": "700",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "13",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T14:05:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T16:30:00"
+              },
+              "carrierCode": "CX",
+              "number": "919",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "14",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "9",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "10",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "13",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "14",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "flight-offer",
+      "id": "20",
+      "source": "GDS",
+      "instantTicketingRequired": false,
+      "nonHomogeneous": false,
+      "oneWay": false,
+      "lastTicketingDate": "2023-05-10",
+      "lastTicketingDateTime": "2023-05-10",
+      "numberOfBookableSeats": 9,
+      "itineraries": [
+        {
+          "duration": "PT7H10M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-10T17:40:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T20:15:00"
+              },
+              "carrierCode": "CX",
+              "number": "918",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H35M",
+              "id": "5",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-10T21:50:00"
+              },
+              "arrival": {
+                "iataCode": "BKK",
+                "at": "2023-05-10T23:50:00"
+              },
+              "carrierCode": "CX",
+              "number": "617",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "6",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        },
+        {
+          "duration": "PT6H55M",
+          "segments": [
+            {
+              "departure": {
+                "iataCode": "BKK",
+                "at": "2023-05-13T15:00:00"
+              },
+              "arrival": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T19:00:00"
+              },
+              "carrierCode": "CX",
+              "number": "654",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT3H",
+              "id": "19",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            },
+            {
+              "departure": {
+                "iataCode": "HKG",
+                "terminal": "1",
+                "at": "2023-05-13T20:30:00"
+              },
+              "arrival": {
+                "iataCode": "MNL",
+                "terminal": "3",
+                "at": "2023-05-13T22:55:00"
+              },
+              "carrierCode": "CX",
+              "number": "913",
+              "aircraft": {
+                "code": "333"
+              },
+              "operating": {
+                "carrierCode": "CX"
+              },
+              "duration": "PT2H25M",
+              "id": "20",
+              "numberOfStops": 0,
+              "blacklistedInEU": false
+            }
+          ]
+        }
+      ],
+      "price": {
+        "currency": "USD",
+        "total": "285.70",
+        "base": "145.00",
+        "fees": [
+          {
+            "amount": "0.00",
+            "type": "SUPPLIER"
+          },
+          {
+            "amount": "0.00",
+            "type": "TICKETING"
+          }
+        ],
+        "grandTotal": "285.70"
+      },
+      "pricingOptions": {
+        "fareType": [
+          "PUBLISHED"
+        ],
+        "includedCheckedBagsOnly": true
+      },
+      "validatingAirlineCodes": [
+        "CX"
+      ],
+      "travelerPricings": [
+        {
+          "travelerId": "1",
+          "fareOption": "STANDARD",
+          "travelerType": "ADULT",
+          "price": {
+            "currency": "USD",
+            "total": "285.70",
+            "base": "145.00"
+          },
+          "fareDetailsBySegment": [
+            {
+              "segmentId": "5",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "6",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "19",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            },
+            {
+              "segmentId": "20",
+              "cabin": "ECONOMY",
+              "fareBasis": "QR21PHAR",
+              "brandedFare": "ECONLIGHT",
+              "class": "Q",
+              "includedCheckedBags": {
+                "quantity": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "dictionaries": {
+    "locations": {
+      "BKK": {
+        "cityCode": "BKK",
+        "countryCode": "TH"
+      },
+      "HKG": {
+        "cityCode": "HKG",
+        "countryCode": "HK"
+      },
+      "MNL": {
+        "cityCode": "MNL",
+        "countryCode": "PH"
+      }
+    },
+    "aircraft": {
+      "333": "AIRBUS A330-300"
+    },
+    "currencies": {
+      "USD": "US DOLLAR"
+    },
+    "carriers": {
+      "CX": "CATHAY PACIFIC"
+    }
+  }
+}

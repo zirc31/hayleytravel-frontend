@@ -1,0 +1,11 @@
+footer {
+    height: 55px;
+    background-color:#222222;
+}
+footer a,
+footer p,
+footer small {
+    color:#FCFCFC;
+    text-align: center;
+    font-size: 0.8rem;
+}

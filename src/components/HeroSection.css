@@ -1,0 +1,15 @@
+.btn-hero {
+    background-color: #1e90ff;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-hero:hover {
+    background-color: white;
+    color: #1e90ff;
+    border: 2px solid #1e90ff;
+}

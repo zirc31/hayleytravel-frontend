@@ -1,7 +1,7 @@
-# P4-Node-App: HayleyTravel App
+# HayleyTravel's Frontend App
 View site demo: [correct URL to be posted here.](https://zircdev.netlify.app/)
 
-Github repository: [https://github.com/zirc31/HayleyTravel](https://github.com/zirc31/HayleyTravel)
+Github repository: [https://github.com/zirc31/hayleytravel-frontend](https://github.com/zirc31/hayleytravel-frontend)
 
 ## Description
 HayleyTravel's Frontend App, A travel website that can book a flights, hotels and tours.

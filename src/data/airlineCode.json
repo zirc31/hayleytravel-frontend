@@ -1,0 +1,45 @@
+[
+    {
+        "iataCode": "MNL",
+        "city": "Manila",
+        "airport": "Ninoy Aquino International",
+        "country": "Philippines",
+        "info": "MNL, Manila, Ninoy Aquino International, Philippines"
+    },
+    {
+        "iataCode": "BKK","city": "Bangkok","airport": "Suvarnabhumi International","country": "Thailand",
+        "info": "BKK, Bangkok, Suvarnabhumi International, Thailand"
+    },
+    {
+        "iataCode": "BKK","city": "Bangkok","airport": "Metropolitan Area","country": "Thailand",
+        "info": "BKK, Bangkok, Metropolitan Area, Thailand"
+    },
+    {
+        "iataCode": "SIN","city": "Singapore","airport": "Changi Airport","country": "Singapore",
+        "info": "SIN, Singapore, Changi Airport, Singapore"
+    },
+    {
+        "iataCode": "MFM","city": "Macau","airport": "Macau","country": "Macau (SAR), PR China",
+        "info": "MFM, Macau, Macau, Macau (SAR), PR China"
+    },
+    {
+        "iataCode": "ILA","city": "Illaga","airport": "Illaga","country": "Indonesia",
+        "info": "ILA, Illaga, Illaga, Indonesia"
+    },
+    {
+        "iataCode": "HKG","city": "Hong Kong","airport": "Hong Kong International","country": "Hong Kong, PR China",
+        "info": "HKG, Hong Kong, Hong Kong International, Hong Kong, PR China"
+    },
+    {
+        "iataCode": "SEL","city": "Seoul","airport": "Metropolitan Area","country": "South Korea",
+        "info": "SEL, Seoul, Metropolitan Area, South Korea"
+    },
+    {
+        "iataCode": "TYO","city": "Tokyo","airport": "Metropolitan Area","country": "Japan",
+        "info": "TYO, Tokyo, Metropolitan Area, Japan"
+    }
+]
+
+
+
+

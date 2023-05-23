@@ -1,0 +1,37 @@
+form {
+    background-color: rgba(223, 227, 235, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.login_message p {
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+}
+
+p {
+    color: #999999;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text-link-btn {
+    color: #1e90ff;
+    cursor: pointer;
+}
+
+.btn-full-width {
+    width: 100%;
+}
+
+.error-message {
+    color: #DC143C;
+    text-align: center;
+    /* padding: 5px 0 15px 0; */
+    box-sizing: border-box;
+}
