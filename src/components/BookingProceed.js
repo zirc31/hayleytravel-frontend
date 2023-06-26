@@ -7,7 +7,10 @@ import FooterSection from './FooterSection';
 import axios from 'axios';
 const {v4: uuidv4 } = require('uuid');
 
-const BookingProceed = () => {;
+const endPointUrl = process.env.REACT_APP_ENDPOINT_URL;
+// ${endPointUrl}
+
+const BookingProceed = () => {
 
     const context = useContext( AppContext );
 
@@ -25,7 +28,7 @@ const BookingProceed = () => {;
     const genBookingId = `Bid-` + uuidv4();
     localStorage.setItem('genBookingId', genBookingId );
 
-    const getBookingApi = `http://localhost:8000/api/v1/booking`;
+    const getBookingApi = `${endPointUrl}/api/v1/booking`;
     const token = localStorage.getItem('token');
     const config = {
         headers: {

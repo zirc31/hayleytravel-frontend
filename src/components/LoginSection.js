@@ -5,6 +5,9 @@ import { AppContext } from '../App';
 import axios from 'axios';
 import './LoginSection.css';
 
+const endPointUrl = process.env.REACT_APP_ENDPOINT_URL;
+// ${endPointUrl}
+
 const LoginSection = () => {
 
     const navigate = useNavigate();
@@ -47,7 +50,7 @@ const LoginSection = () => {
         e.preventDefault();
 
         if ( loginVia === 'username' ) {
-            axios.post( 'http://localhost:8000/api/v1/user/login', { username, password }).then( response => {
+            axios.post( `${endPointUrl}/api/v1/user/login`, { username, password }).then( response => {
                 console.log( response );
                 console.log( response.headers );
 
@@ -70,7 +73,7 @@ const LoginSection = () => {
                 setErrorMessage(`Invalid credentials!`);
             });
         } else {
-            axios.post( 'http://localhost:8000/api/v1/user/login', { email, password }).then( response => {
+            axios.post( `${endPointUrl}/api/v1/user/login`, { email, password }).then( response => {
                 console.log( response );
                 console.log( response.headers );
                 if( response.status === 200 ){

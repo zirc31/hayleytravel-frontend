@@ -6,6 +6,9 @@ import { AppContext } from '../App';
 import Navigation from '../components/Navigation';
 import FooterSection from '../components/FooterSection';
 
+const endPointUrl = process.env.REACT_APP_ENDPOINT_URL;
+// ${endPointUrl}
+
 const DisplayFlights = () => {
 
     const navigate = useNavigate();
@@ -35,7 +38,7 @@ const DisplayFlights = () => {
     // Direct Flights
     // const flightApiUrlProd = `http://localhost:8000/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=${queryNonStop}&currencyCode=${queryCurrencyCode}&max=${queryMax}`;
     // Flights with more than one stop.
-    const flightApiUrlProd = `http://localhost:8000/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=false&currencyCode=${queryCurrencyCode}&max=${queryMax}`;
+    const flightApiUrlProd = `${endPointUrl}/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=false&currencyCode=${queryCurrencyCode}&max=${queryMax}`;
     // const flightApiUrlDev = `http://localhost:8000/api/v1/search/flight?originLocationCode=${queryOriginLocationCode}&destinationLocationCode=${queryDestinationLocationCode}&departureDate=${queryDepartureDate}&returnDate=${queryReturnDate}&adults=${queryAdults}&children=${queryChildren}&infants=${queryInfants}&travelClass=${queryTravelClass}&nonStop=${queryNonStop}&currencyCode=${queryCurrencyCode}&max=${queryMax}&dev=demo`;
 
     // API to fetch from Back-end

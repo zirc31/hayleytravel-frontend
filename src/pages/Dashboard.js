@@ -9,9 +9,12 @@ import './Dashboard.css';
 
 export const DashboardContext = createContext();
 
+const endPointUrl = process.env.REACT_APP_ENDPOINT_URL;
+// ${endPointUrl}
+
 const Dashboard = () => {
 
-    const getUserApi = `http://localhost:8000/api/v1/user/data`;
+    const getUserApi = `${endPointUrl}/api/v1/user/data`;
     const token = localStorage.getItem('token');
     const config = {
         headers: {

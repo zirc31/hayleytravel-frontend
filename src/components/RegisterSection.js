@@ -5,6 +5,8 @@ import RegistrationSuccessModal from '../modal/RegistrationSuccessModal';
 import axios from 'axios';
 import './RegisterSection.css';
 
+const endPointUrl = process.env.REACT_APP_ENDPOINT_URL;
+// ${endPointUrl}
 
 const RegisterSection = () => {
 
@@ -31,7 +33,7 @@ const RegisterSection = () => {
         if ( password === hint ) {
             setErrorMessage('Password hint should not be the same as your password.');
         } else {
-            axios.post( 'http://localhost:8000/api/v1/user/register', { email, username, password, hint }).then( response => {
+            axios.post( `${endPointUrl}/api/v1/user/register`, { email, username, password, hint }).then( response => {
                 console.log( response );
                 console.log( response.headers );
 
